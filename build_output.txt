@@ -1,0 +1,277 @@
+﻿.\gradlew.bat : WARNING: A restricted method in 
+java.lang.System has been called
+At line:1 char:1
++ .\gradlew.bat assembleDebug 2>&1 | Out-File -FilePath 
+D:\Hack\build_o ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (WARNING: A r 
+   est...has been called:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+WARNING: java.lang.System::load has been called by 
+net.rubygrapefruit.platform.internal.NativeLibraryLoader 
+in an unnamed module (file:/C:/Users/HP/.gradle/wrapper/di
+sts/gradle-8.13-bin/5xuhj0ry160q40clulazy9h7d/gradle-8.13/
+lib/native-platform-0.22-milestone-28.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid 
+a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future 
+release unless native access is enabled
+
+
+Welcome to Gradle 8.13!
+
+Here are the highlights of this release:
+ - Daemon JVM auto-provisioning
+ - Enhancements for Scala plugin and JUnit testing
+ - Improvements for build authors and plugin developers
+
+For more details see https://docs.gradle.org/8.13/release-notes.html
+
+> Task :app:preBuild UP-TO-DATE
+> Task :app:preDebugBuild UP-TO-DATE
+> Task :app:mergeDebugNativeDebugMetadata NO-SOURCE
+> Task :app:checkKotlinGradlePluginConfigurationErrors
+> Task :app:generateDebugBuildConfig UP-TO-DATE
+> Task :app:checkDebugAarMetadata UP-TO-DATE
+> Task :app:processDebugNavigationResources UP-TO-DATE
+> Task :app:compileDebugNavigationResources UP-TO-DATE
+> Task :app:generateDebugResValues UP-TO-DATE
+> Task :app:mapDebugSourceSetPaths UP-TO-DATE
+> Task :app:generateDebugResources UP-TO-DATE
+> Task :app:mergeDebugResources UP-TO-DATE
+> Task :app:packageDebugResources UP-TO-DATE
+> Task :app:parseDebugLocalResources UP-TO-DATE
+> Task :app:createDebugCompatibleScreenManifests UP-TO-DATE
+> Task :app:extractDeepLinksDebug UP-TO-DATE
+> Task :app:processDebugMainManifest
+> Task :app:processDebugManifest
+> Task :app:javaPreCompileDebug UP-TO-DATE
+> Task :app:mergeDebugShaders UP-TO-DATE
+> Task :app:compileDebugShaders NO-SOURCE
+> Task :app:generateDebugAssets UP-TO-DATE
+> Task :app:mergeDebugAssets UP-TO-DATE
+> Task :app:compressDebugAssets UP-TO-DATE
+> Task :app:desugarDebugFileDependencies UP-TO-DATE
+> Task :app:checkDebugDuplicateClasses UP-TO-DATE
+> Task :app:mergeExtDexDebug UP-TO-DATE
+> Task :app:mergeLibDexDebug UP-TO-DATE
+> Task :app:mergeDebugJniLibFolders UP-TO-DATE
+> Task :app:mergeDebugNativeLibs UP-TO-DATE
+> Task :app:stripDebugDebugSymbols UP-TO-DATE
+> Task :app:validateSigningDebug UP-TO-DATE
+> Task :app:writeDebugAppMetadata UP-TO-DATE
+> Task :app:writeDebugSigningConfigVersions UP-TO-DATE
+> Task :app:processDebugManifestForPackage
+> Task :app:processDebugResources
+
+> Task :app:compileDebugKotlin
+e: file:///D:/Hack/GuardianShield/app/src/main/java/com/gu
+ardianshield/app/camera/BurstCaptureManager.kt:146:41 
+Unresolved reference: postgrest
+e: file:///D:/Hack/GuardianShield/app/src/main/java/com/gu
+ardianshield/app/data/SupabaseClient.kt:6:38 Unresolved 
+reference: GoTrue
+e: file:///D:/Hack/GuardianShield/app/src/main/java/com/gu
+ardianshield/app/data/SupabaseClient.kt:17:13 Not enough 
+information to infer type variable Config
+e: file:///D:/Hack/GuardianShield/app/src/main/java/com/gu
+ardianshield/app/data/SupabaseClient.kt:17:21 Unresolved 
+reference: GoTrue
+e: file:///D:/Hack/GuardianShield/app/src/main/java/com/gu
+ardianshield/app/service/BatteryMonitorService.kt:20:38 
+Unresolved reference: gotrue
+e: file:///D:/Hack/GuardianShield/app/src/main/java/com/gu
+ardianshield/app/service/BatteryMonitorService.kt:99:62 
+Unresolved reference. None of the following candidates is 
+applicable because of receiver type mismatch: 
+public fun <T> Array<out TypeVariable(T)>.first(): 
+TypeVariable(T) defined in kotlin.collections
+public inline fun <T> Array<out 
+TypeVariable(T)>.first(predicate: (TypeVariable(T)) -> 
+Boolean): TypeVariable(T) defined in kotlin.collections
+public fun BooleanArray.first(): Boolean defined in 
+kotlin.collections
+public inline fun BooleanArray.first(predicate: (Boolean) 
+-> Boolean): Boolean defined in kotlin.collections
+public fun ByteArray.first(): Byte defined in 
+kotlin.collections
+public inline fun ByteArray.first(predicate: (Byte) -> 
+Boolean): Byte defined in kotlin.collections
+public fun CharArray.first(): Char defined in 
+kotlin.collections
+public inline fun CharArray.first(predicate: (Char) -> 
+Boolean): Char defined in kotlin.collections
+public fun CharSequence.first(): Char defined in 
+kotlin.text
+public inline fun CharSequence.first(predicate: (Char) -> 
+Boolean): Char defined in kotlin.text
+public fun DoubleArray.first(): Double defined in 
+kotlin.collections
+public inline fun DoubleArray.first(predicate: (Double) 
+-> Boolean): Double defined in kotlin.collections
+public fun FloatArray.first(): Float defined in 
+kotlin.collections
+public inline fun FloatArray.first(predicate: (Float) -> 
+Boolean): Float defined in kotlin.collections
+public fun IntArray.first(): Int defined in 
+kotlin.collections
+public inline fun IntArray.first(predicate: (Int) -> 
+Boolean): Int defined in kotlin.collections
+public fun LongArray.first(): Long defined in 
+kotlin.collections
+public inline fun LongArray.first(predicate: (Long) -> 
+Boolean): Long defined in kotlin.collections
+public fun ShortArray.first(): Short defined in 
+kotlin.collections
+public inline fun ShortArray.first(predicate: (Short) -> 
+Boolean): Short defined in kotlin.collections
+public inline fun UByteArray.first(): UByte defined in 
+kotlin.collections
+public inline fun UByteArray.first(predicate: (UByte) -> 
+Boolean): UByte defined in kotlin.collections
+public inline fun UIntArray.first(): UInt defined in 
+kotlin.collections
+public inline fun UIntArray.first(predicate: (UInt) -> 
+Boolean): UInt defined in kotlin.collections
+public inline fun ULongArray.first(): ULong defined in 
+kotlin.collections
+public inline fun ULongArray.first(predicate: (ULong) -> 
+Boolean): ULong defined in kotlin.collections
+public inline fun UShortArray.first(): UShort defined in 
+kotlin.collections
+public inline fun UShortArray.first(predicate: (UShort) 
+-> Boolean): UShort defined in kotlin.collections
+public fun <T> Iterable<TypeVariable(T)>.first(): 
+TypeVariable(T) defined in kotlin.collections
+public inline fun <T> 
+Iterable<TypeVariable(T)>.first(predicate: 
+(TypeVariable(T)) -> Boolean): TypeVariable(T) defined in 
+kotlin.collections
+public fun <T> List<TypeVariable(T)>.first(): 
+TypeVariable(T) defined in kotlin.collections
+public fun CharProgression.first(): Char defined in 
+kotlin.ranges
+public fun IntProgression.first(): Int defined in 
+kotlin.ranges
+public fun LongProgression.first(): Long defined in 
+kotlin.ranges
+public fun UIntProgression.first(): UInt defined in 
+kotlin.ranges
+public fun ULongProgression.first(): ULong defined in 
+kotlin.ranges
+public fun <T> Sequence<TypeVariable(T)>.first(): 
+TypeVariable(T) defined in kotlin.sequences
+public inline fun <T> 
+Sequence<TypeVariable(T)>.first(predicate: 
+(TypeVariable(T)) -> Boolean): TypeVariable(T) defined in 
+kotlin.sequences
+e: file:///D:/Hack/GuardianShield/app/src/main/java/com/gu
+ardianshield/app/service/BatteryMonitorService.kt:108:58 
+Unresolved reference: gotrue
+e: file:///D:/Hack/GuardianShield/app/src/main/java/com/gu
+ardianshield/app/service/BatteryMonitorService.kt:158:53 
+Unresolved reference: await
+e: file:///D:/Hack/GuardianShield/app/src/main/java/com/gu
+ardianshield/app/service/BatteryMonitorService.kt:168:50 
+Unresolved reference: gotrue
+e: file:///D:/Hack/GuardianShield/app/src/main/java/com/gu
+ardianshield/app/service/BatteryMonitorService.kt:170:27 
+Unresolved reference: eq
+e: file:///D:/Hack/GuardianShield/app/src/main/java/com/gu
+ardianshield/app/service/SosTriggerService.kt:18:38 
+Unresolved reference: gotrue
+e: file:///D:/Hack/GuardianShield/app/src/main/java/com/gu
+ardianshield/app/service/SosTriggerService.kt:75:54 
+Unresolved reference: gotrue
+e: file:///D:/Hack/GuardianShield/app/src/main/java/com/gu
+ardianshield/app/service/SosTriggerService.kt:86:45 
+Cannot assign to 'returning': the setter is private in 
+'PostgrestRequestBuilder'
+e: file:///D:/Hack/GuardianShield/app/src/main/java/com/gu
+ardianshield/app/service/SosTriggerService.kt:86:67 
+Unresolved reference: REPRESENTATION
+e: file:///D:/Hack/GuardianShield/app/src/main/java/com/gu
+ardianshield/app/service/SosTriggerService.kt:132:29 
+Unresolved reference: eq
+e: file:///D:/Hack/GuardianShield/app/src/main/java/com/gu
+ardianshield/app/service/SosTriggerService.kt:148:53 
+Unresolved reference: await
+e: file:///D:/Hack/GuardianShield/app/src/main/java/com/gu
+ardianshield/app/sms/EmergencySmsSender.kt:9:38 
+Unresolved reference: gotrue
+e: file:///D:/Hack/GuardianShield/app/src/main/java/com/gu
+ardianshield/app/sms/EmergencySmsSender.kt:133:50 
+Unresolved reference: gotrue
+e: file:///D:/Hack/GuardianShield/app/src/main/java/com/gu
+ardianshield/app/sms/EmergencySmsSender.kt:135:27 
+Unresolved reference: eq
+e: file:///D:/Hack/GuardianShield/app/src/main/java/com/gu
+ardianshield/app/ui/screens/ContactsScreen.kt:21:38 
+Unresolved reference: gotrue
+e: file:///D:/Hack/GuardianShield/app/src/main/java/com/gu
+ardianshield/app/ui/screens/ContactsScreen.kt:41:50 
+Unresolved reference: gotrue
+e: file:///D:/Hack/GuardianShield/app/src/main/java/com/gu
+ardianshield/app/ui/screens/ContactsScreen.kt:43:27 
+Unresolved reference: eq
+e: file:///D:/Hack/GuardianShield/app/src/main/java/com/gu
+ardianshield/app/ui/screens/ContactsScreen.kt:88:74 
+Unresolved reference: gotrue
+e: file:///D:/Hack/GuardianShield/app/src/main/java/com/gu
+ardianshield/app/ui/screens/ContactsScreen.kt:201:55 
+Unresolved reference: eq
+e: file:///D:/Hack/GuardianShield/app/src/main/java/com/gu
+ardianshield/app/ui/screens/LoginScreen.kt:23:38 
+Unresolved reference: gotrue
+e: file:///D:/Hack/GuardianShield/app/src/main/java/com/gu
+ardianshield/app/ui/screens/LoginScreen.kt:159:57 
+Unresolved reference: gotrue
+e: file:///D:/Hack/GuardianShield/app/src/main/java/com/gu
+ardianshield/app/ui/screens/LoginScreen.kt:160:42 
+Unresolved reference: email
+e: file:///D:/Hack/GuardianShield/app/src/main/java/com/gu
+ardianshield/app/ui/screens/LoginScreen.kt:161:42 
+Unresolved reference: password
+e: file:///D:/Hack/GuardianShield/app/src/main/java/com/gu
+ardianshield/app/ui/screens/LoginScreen.kt:164:57 
+Unresolved reference: gotrue
+e: file:///D:/Hack/GuardianShield/app/src/main/java/com/gu
+ardianshield/app/ui/screens/LoginScreen.kt:165:42 
+Unresolved reference: email
+e: file:///D:/Hack/GuardianShield/app/src/main/java/com/gu
+ardianshield/app/ui/screens/LoginScreen.kt:166:42 
+Unresolved reference: password
+e: file:///D:/Hack/GuardianShield/app/src/main/java/com/gu
+ardianshield/app/ui/screens/SettingsScreen.kt:29:38 
+Unresolved reference: gotrue
+e: file:///D:/Hack/GuardianShield/app/src/main/java/com/gu
+ardianshield/app/ui/screens/SettingsScreen.kt:204:53 
+Unresolved reference: gotrue
+e: file:///D:/Hack/GuardianShield/app/src/main/java/com/gu
+ardianshield/app/ui/screens/SetupScreen.kt:30:38 
+Unresolved reference: gotrue
+e: file:///D:/Hack/GuardianShield/app/src/main/java/com/gu
+ardianshield/app/ui/screens/SetupScreen.kt:355:78 
+Unresolved reference: gotrue
+
+> Task :app:compileDebugKotlin FAILED
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':app:compileDebugKotlin'.
+> A failure occurred while executing org.jetbrains.kotlin.
+compilerRunner.GradleCompilerRunnerWithWorkers$GradleKotli
+nCompilerWorkAction
+   > Compilation error. See log for more details
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log 
+output.
+> Run with --scan to get full insights.
+> Get more help at https://help.gradle.org.
+
+BUILD FAILED in 21s
+32 actionable tasks: 6 executed, 26 up-to-date

@@ -1,0 +1,50 @@
+﻿.\gradlew.bat : WARNING: A restricted method in 
+java.lang.System has been called
+At line:1 char:1
++ .\gradlew.bat compileDebugKotlin 2>&1 | Out-File 
+-FilePath D:\Hack\bu ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (WARNING: A r 
+   est...has been called:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+WARNING: java.lang.System::load has been called by 
+net.rubygrapefruit.platform.internal.NativeLibraryLoader 
+in an unnamed module (file:/C:/Users/HP/.gradle/wrapper/di
+sts/gradle-8.13-bin/5xuhj0ry160q40clulazy9h7d/gradle-8.13/
+lib/native-platform-0.22-milestone-28.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid 
+a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future 
+release unless native access is enabled
+
+> Task :app:checkKotlinGradlePluginConfigurationErrors
+> Task :app:preBuild UP-TO-DATE
+> Task :app:preDebugBuild UP-TO-DATE
+> Task :app:generateDebugBuildConfig UP-TO-DATE
+> Task :app:checkDebugAarMetadata UP-TO-DATE
+> Task :app:processDebugNavigationResources UP-TO-DATE
+> Task :app:compileDebugNavigationResources UP-TO-DATE
+> Task :app:generateDebugResValues UP-TO-DATE
+> Task :app:mapDebugSourceSetPaths UP-TO-DATE
+> Task :app:generateDebugResources UP-TO-DATE
+> Task :app:mergeDebugResources UP-TO-DATE
+> Task :app:packageDebugResources UP-TO-DATE
+> Task :app:parseDebugLocalResources UP-TO-DATE
+> Task :app:createDebugCompatibleScreenManifests UP-TO-DATE
+> Task :app:extractDeepLinksDebug UP-TO-DATE
+> Task :app:processDebugMainManifest UP-TO-DATE
+> Task :app:processDebugManifest UP-TO-DATE
+> Task :app:processDebugManifestForPackage UP-TO-DATE
+> Task :app:processDebugResources UP-TO-DATE
+
+> Task :app:compileDebugKotlin
+w: file:///D:/Hack/GuardianShield/app/src/main/java/com/guardianshield/app/service/AudioRecorderService.kt:40:28 'constructor MediaRecorder()' is deprecated. Deprecated in Java
+w: file:///D:/Hack/GuardianShield/app/src/main/java/com/guardianshield/app/sms/EmergencySmsSender.kt:59:9 Parameter 'context' is never used
+w: file:///D:/Hack/GuardianShield/app/src/main/java/com/guardianshield/app/ui/screens/ContactsScreen.kt:121:44 'ArrowBack: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Filled.ArrowBack
+w: file:///D:/Hack/GuardianShield/app/src/main/java/com/guardianshield/app/ui/screens/DeadManSwitchScreen.kt:171:44 'ArrowBack: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Filled.ArrowBack
+w: file:///D:/Hack/GuardianShield/app/src/main/java/com/guardianshield/app/ui/screens/SettingsScreen.kt:46:44 'ArrowBack: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Filled.ArrowBack
+w: file:///D:/Hack/GuardianShield/app/src/main/java/com/guardianshield/app/ui/screens/SettingsScreen.kt:210:36 'Logout: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Filled.Logout
+
+BUILD SUCCESSFUL in 26s
+18 actionable tasks: 2 executed, 16 up-to-date
