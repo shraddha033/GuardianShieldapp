@@ -1,5 +1,0 @@
-supabase project password: OwLno2Zg4CPQO9em
-
-project URL: https://hqezbsoogfbnylufpvqf.supabase.co
-
-anon public : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImhxZXpic29vZ2ZibnlsdWZwdnFmIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzEzNDEwMzEsImV4cCI6MjA4NjkxNzAzMX0.NZPH0QQNrDUEGwEpJI8SBiFvvdTq3wNB2dc6x0QPlgs
